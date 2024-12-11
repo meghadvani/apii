@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    background-image: url(../img/NetflixIcon2016.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    background-size: 40% 100%;
+    background-position: right;
+    color: red;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+
+  }
+  
+  #searchInput {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 1rem;
+    border: none;
+  }
+  
+  #moviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .movie-card {
+    width: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .movie-card h2 {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
